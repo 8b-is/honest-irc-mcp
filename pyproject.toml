@@ -1,0 +1,8 @@
+[project]
+name = "honest-irc-mcp"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = ["mcp"]
+
+[project.scripts]
+honest-irc-mcp = "server:main"
